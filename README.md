@@ -2,6 +2,33 @@
 
 This repository contains my personal dotfiles and setup scripts for quickly configuring a new development environment on macOS or Ubuntu Linux.
 
+## Directory:
+dotfiles/
+│
+├── install.sh
+├── macos_setup.sh
+├── linux_setup.sh
+├── common_setup.sh
+├── nvchad/
+│   ├── chadrc.lua
+│   ├── custom_init.lua
+│   ├── configs
+|   |   ├── rust-tools.lua
+|   |   ├── lspconfig.lua
+|   |   └── null-ls.lua
+├── configs/
+│   ├── tmux.conf
+│   ├── zshrc
+│   ├── zsh_variables
+│   ├── zsh_aliases
+│   └── starship.toml
+└── scripts/
+    ├── install_nvchad.sh
+    ├── install_dev_tools.sh
+    ├── install_languages.sh
+    ├── install_terminal_apps.sh
+    └── install_firacode.sh
+
 ## Features
 
 - Automatic installation of development tools and languages
