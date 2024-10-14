@@ -3,6 +3,7 @@
 This repository contains my personal dotfiles and setup scripts for quickly configuring a new development environment on macOS or Ubuntu Linux.
 
 ## Directory:
+```bash
 dotfiles/
 │
 ├── install.sh
@@ -13,9 +14,9 @@ dotfiles/
 │   ├── chadrc.lua
 │   ├── custom_init.lua
 │   ├── configs
-|   |   ├── rust-tools.lua
-|   |   ├── lspconfig.lua
-|   |   └── null-ls.lua
+│   │   ├── rust-tools.lua
+│   │   ├── lspconfig.lua
+│   │   └── null-ls.lua
 ├── configs/
 │   ├── tmux.conf
 │   ├── zshrc
@@ -28,6 +29,7 @@ dotfiles/
     ├── install_languages.sh
     ├── install_terminal_apps.sh
     └── install_firacode.sh
+```
 
 ## Features
 
