@@ -6,6 +6,9 @@ brew install zsh starship
 # OH-MY-ZSH
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+# AWSCLI
+brew install awscli
+
 # K9S
 brew install k9s
 
