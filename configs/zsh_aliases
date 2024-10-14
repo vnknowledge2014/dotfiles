@@ -1,0 +1,39 @@
+# General
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
+# Git
+alias gs='git status'
+alias ga='git add'
+alias gc='git commit -m'
+alias gp='git push'
+alias gpl='git pull'
+
+# Docker
+alias d='docker'
+alias dc='docker-compose'
+
+# Kubernetes
+alias k='kubectl'
+
+# NeoVim
+alias vim='nvim'
+
+# Python
+alias py='python3'
+alias pip='pip3'
+
+# Node.js
+alias n='npm'
+alias y='yarn'
+
+# Rust
+alias c='cargo'
+
+# Tmux
+alias tn='tmux new -s'
+alias ta='tmux attach -t'
+alias tl='tmux list-sessions'
+alias tk='tmux kill-session -t'
+
