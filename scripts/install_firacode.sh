@@ -1,13 +1,11 @@
 #!/bin/bash
 
 install_firacode_macos() {
-    brew tap homebrew/cask-fonts
-    brew install --cask font-fira-code
+    brew install --cask font-fira-code-nerd-font
 }
 
 install_firacode_linux() {
-    sudo apt update
-    sudo apt install -y fonts-firacode
+    brew install --cask font-fira-code-nerd-font
 }
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
