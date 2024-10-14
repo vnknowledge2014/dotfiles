@@ -31,5 +31,5 @@ curl -sS https://starship.rs/install.sh | sh
 chsh -s $(which zsh)
 
 # Copy configuration files
-source ./scripts/copy_configs.sh
+source ./scripts/copy_config.sh
 
