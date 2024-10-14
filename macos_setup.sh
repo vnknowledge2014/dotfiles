@@ -4,7 +4,7 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Add Homebrew to PATH
-echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+echo 'eval "$(/usr/local/bin/brew shellenv)"' >> ~/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Install Warp
