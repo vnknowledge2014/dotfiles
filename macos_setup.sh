@@ -5,7 +5,7 @@
 
 # Add Homebrew to PATH
 echo 'eval "$(/usr/local/bin/brew shellenv)"' >> ~/.zprofile
-eval "$(/opt/homebrew/bin/brew shellenv)"
+eval "$(/usr/local/bin/brew shellenv)"
 
 # Install Warp
 brew install --cask warp
