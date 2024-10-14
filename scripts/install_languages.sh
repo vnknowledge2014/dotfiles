@@ -73,6 +73,7 @@ asdf global rust latest
 asdf shell rust latest
 
 # Install Ruby
+brew install ruby
 asdf plugin add ruby
 asdf install ruby latest
 asdf global ruby latest
