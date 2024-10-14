@@ -48,7 +48,7 @@ dotfiles/
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/dotfiles.git cd dotfiles
+git clone https://github.com/vnknowledge2014/dotfiles.git cd dotfiles
 ```
 
 2. Make the install script executable:
