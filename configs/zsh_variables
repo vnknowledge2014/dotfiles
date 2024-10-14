@@ -7,6 +7,7 @@ export PATH=$PATH:$GOPATH/bin
 
 # Rust path
 export PATH=$PATH:$HOME/.cargo/bin
+source $HOME/.cargo/env
 
 # Node.js path
 export PATH=$PATH:$HOME/.npm-global/bin
