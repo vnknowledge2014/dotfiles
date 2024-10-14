@@ -30,3 +30,6 @@ curl -sS https://starship.rs/install.sh | sh
 # Set ZSH as default shell
 chsh -s $(which zsh)
 
+# Copy configuration files
+source ./scripts/copy_configs.sh
+
