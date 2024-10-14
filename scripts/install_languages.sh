@@ -92,7 +92,7 @@ asdf global unison latest
 asdf shell unison latest
 
 # Install Haskell
-asdf plugin haskell unison
+asdf plugin add haskell
 asdf install haskell latest
 asdf global haskell latest
 asdf shell haskell latest
