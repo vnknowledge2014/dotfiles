@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# ZSH - STARSHIP - NEOVIM
+brew install zsh starship neovim
+
 # Determine OS
 if [[ "$OSTYPE" == "darwin"* ]]; then
     OS="MacOS"
