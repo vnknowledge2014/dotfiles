@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install asdf
-git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.10.2
+brew install asdf
 echo '. $HOME/.asdf/asdf.sh' >> ~/.zshrc
 echo '. $HOME/.asdf/completions/asdf.bash' >> ~/.zshrc
 . $HOME/.asdf/asdf.sh
