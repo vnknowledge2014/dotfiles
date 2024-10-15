@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# ZSH
-brew install zsh starship
-
 # OH-MY-ZSH
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
