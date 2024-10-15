@@ -6,6 +6,9 @@ echo '. $HOME/.asdf/asdf.sh' >> ~/.zshrc
 echo '. $HOME/.asdf/completions/asdf.bash' >> ~/.zshrc
 . $HOME/.asdf/asdf.sh
 
+# Copy configuration files
+source ./scripts/copy_configs.sh
+
 # Install dev tools
 source ./scripts/install_dev_tools.sh
 
@@ -29,7 +32,4 @@ curl -sS https://starship.rs/install.sh | sh
 
 # Set ZSH as default shell
 chsh -s $(which zsh)
-
-# Copy configuration files
-source ./scripts/copy_config.sh
 
